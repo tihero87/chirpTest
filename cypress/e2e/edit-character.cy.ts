@@ -1,6 +1,6 @@
 describe('Character Edit Test', () => {
   it('successfully edit character and the changes are saved on the main page', () => {
-    cy.visit('http://localhost:5005/');
+    cy.visit('/');
 
     // Проверяем наличие списка персонажей
     cy.get("[data-automation-id='character-list']", { timeout: 15000 }).should('exist');

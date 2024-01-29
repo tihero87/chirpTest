@@ -1,7 +1,7 @@
 describe('Character List Test', () => {
   it('successfully loads and shows character list, then navigates to character item', () => {
     // Посещаем главную страницу
-    cy.visit('http://localhost:5005/');
+    cy.visit('/');
 
     // Проверяем наличие поля для ввода
     cy.get('input').should('have.value', '');
