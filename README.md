@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + TanStack Query + Cypress
 
     Star Wars API App
 
